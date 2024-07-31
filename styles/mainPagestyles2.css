@@ -1,0 +1,99 @@
+.last-topic{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.sdg-icons-div{
+  display: flex;
+  flex:1 ;
+  align-items: center;
+  justify-content: center;
+}
+.sdg-icons{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 600px;
+  height: 600px;
+  /* flex: 1; */
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+}
+.div-on-click{
+  display: none;
+  position: fixed;
+  color: black;
+  top: 60px;
+  bottom: 80px;
+  right: 100px;
+  left: 100px;
+  background-color: transparent;
+  backdrop-filter: blur(40px);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 6px rgba(0,0,0,0.3);
+}
+.info-topic{
+  height: 60px;
+  margin-left: 10px;  
+  font-weight: bold;
+  font-size: 30px;
+}
+.info-on-click{
+  display: flex;  
+  font-size: 15px;
+  font-weight: lighter;
+  font-family: arial;
+  color: black;
+  z-index: 100;
+  position: fixed;
+  top: 60px;
+  right: 300px;
+  left: 10px;
+  bottom: 20px;
+  border: none;
+}
+
+.is-editing-quantity{
+  display: flex;
+}
+
+.close-button{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  height: 30px;
+  width: 30px;
+  border-radius: 15px;
+  border: none;
+  background-color: rgb(224, 224, 224);
+}
+.close-button:hover{
+  cursor: pointer;
+}
+.icon{
+  display: flex;
+  flex-direction: row;
+  /* width: 285px; */
+  height: 100px;
+  margin: 5px;
+  background-color: grey;
+  border-radius: 5px;
+  transition: box-shadow 0.15s;
+  color: white;
+}
+.icon:hover{
+  box-shadow: 4px 4px 6px rgba(0,0,0,0.15);
+  cursor: pointer;
+}
+.sdg-number{
+  font-size: 20px;
+  padding: 10px 10px;
+  font-weight: bold;
+}
+.sdg-name{
+  padding: 12px 5px 0px 0px;
+  font-size: 10px;
+}

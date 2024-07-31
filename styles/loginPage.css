@@ -1,0 +1,137 @@
+body{
+  margin: 0;
+}
+p{
+  color: white;
+  font-family: calibri;
+  margin: 0;
+}
+
+.background-image-div{
+  display: flex;
+  position: relative;
+  width: 1232px;
+  height: 645px;
+  padding: 0;
+  margin: 0;
+}
+.background-image{
+  width: 1232px;
+  height: 645px;
+  padding: 0;
+  margin: 0;
+}
+.home-page-link{
+  display: flex;
+  position: absolute;
+  font-size: 30px;
+  font-family: arial;
+  color: white;
+  top: 20px;
+  left: 30px;
+  border: none;
+  box-shadow: 0 0 5px rgba(255,255,255,0.4);
+  border-radius: 3px;
+  padding: 5px 8px;
+  transition: top 0.3s;
+  transition: left 0.3s;
+}
+.home-page-link:hover{
+  cursor: pointer;
+  top:21px;
+  left: 31px;
+}
+.right-text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 50%;
+  background-color: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+}
+.welcome{
+  font-weight: bold;
+  font-size: 50px;
+  margin: 0;
+}
+.enter-details{
+  font-size: 18px;
+  margin: 0;
+  margin-bottom: 10px;
+}
+.info-font{
+  font-size: 15px;
+  padding-top: 12px;
+  padding-bottom: 3px;
+  font-weight: bold;
+}
+.mid-part{
+  display: flex;
+  flex-direction: column;
+  width: 430px;
+}
+.email-box{
+  width: 100%;
+  padding: 10px 0;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid grey;
+  font-size: 12px;
+}
+.email-box::placeholder{
+  color: white;
+}
+.bottom-part{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.checkbox{
+  display: flex;
+  flex-direction: row;
+  margin-top: 8px;
+  position: relative;
+}
+.forget-password:hover{
+  cursor: pointer;
+}
+.log-in-button{
+  color: white;
+  background-color: black;
+  border: none;
+  width: 430px;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 13px;
+  transition: background 0.3s;
+}
+.log-in-button:hover{
+  cursor: pointer;
+  background-color: rgb(29, 29, 29);
+}
+.log-in-button:active{
+  background-color: black;
+}
+.last-font{
+  color: rgb(49, 49, 49);
+  font-size: 13px;
+  padding: 4px;
+}
+.last-font:hover{
+  cursor: pointer;
+}
+span{
+  color: white;
+  font-weight: bold;
+  font-size: 13.5px;
+}
+span:hover{
+  cursor: pointer;
+}
